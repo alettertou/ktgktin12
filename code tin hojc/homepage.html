@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lau hongkong</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: Helvetica;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-red w3-padding w3-card" style="letter-spacing:4px;">
+      <a href="homepage.html" class="w3-bar-item w3-button"> <img class="w3-image" src="images/logo.webp"
+          alt="Nhà hàng đồ ăn cay MQTT" width="50" height="50"> </a>
+      <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="menu.html" class="w3-bar-item w3-button">Các món ăn</a>
+        <a href="address.html" class="w3-bar-item w3-button">Địa chỉ</a>
+        <a href="feedback.html" class="w3-bar-item w3-button">Feedback</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <img class="w3-image" src="/images/mainimghp.jpg" alt="Hamburger Catering" width="1600" height="800">
+    <div class="w3-display-center w3-padding-large heading background ">
+      <h1 class="w3-xxlarge heading"><b>NHÀ HÀNG ĐỒ ĂN CAY MQTT</b></h1>
+    </div>
+  </header>
+
+  <!-- Page content -->
+  <div class="w3-content " style="max-width:100%">
+
+    <!-- About Section -->
+    <div class="w3-row w3-red " id="about">
+      <div class="w3-col m6 w3-padding-large w3-hide-small ">
+        <video src="videos/video about us.mp4" class="w3-round w3-image" alt="Table Setting" width="700" height="750"
+          controls>
+      </div>
+
+      <div class="w3-col m6 w3-padding-large ">
+        <h1 class="w3-center"><b>Về chúng tôi</b></h1><br>
+        <h5 class="w3-center w3-codespan">Hương vị cay nồng từ những thập niên 90s</h5>
+
+        <p class="w3-large  w3-hide-medium ">Nhà hàng <b><i>MQTT</i></b> là thiên đường ẩm thực dành cho
+          những tín đồ yêu thích đồ ăn cay! Với thực đơn đa dạng, từ các món lẩu cay tê đầu lưỡi, cánh gà sốt cay nồng
+          cho đến mì cay cấp độ thử thách, chúng tôi mang đến trải nghiệm ẩm thực bùng nổ vị giác. Không gian hiện đại,
+          ấm cúng cùng đội ngũ đầu bếp chuyên nghiệp đảm bảo mỗi món ăn đều đạt chất lượng tuyệt hảo. Hãy đến
+          <b><i>MQTT</i></b>
+          để thưởng thức vị cay đúng điệu và chinh phục giới hạn của bản thân!
+        </p>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Menu Section -->
+    <div class=" w3-content" style="max-width: 1100px">
+      <table class="table2 w3-center">
+
+        <tr style="background-color: bisque;">
+          <h1 style="color: brown;"><b>CÁC MÓN ĂN</b> </h1>
+        </tr>
+        <hr>
+        <tr>
+          <td><img class="w3-image menuimg w3-round" src="images/mì cay 1.jpg" class="w3-round" width="400"></td>
+          <td><img class="w3-image menuimg w3-round" src="images/lẩu tứ xuyên homepage.jpg" class="w3-round" width="400"></td>
+          <td><img class="w3-image menuimg w3-round" src="images/gà rán homepage.jpg" class="w3-round " width="400"></td>
+        </tr>
+        <tr>
+          <td><a href="menu.html" class="w3-bar-item w3-button">
+              <h4><b>Mì cay</b></h4>
+            </a> </td>
+          <td><a href="menu.html" class="w3-bar-item w3-button">
+              <h4><b>Lẩu tứ xuyên</b></h4>
+            </a></td>
+          <td><a href="menu.html" class="w3-bar-item w3-button">
+              <h4><b>Gà rán</b></h4>
+            </a></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- End page content -->
+  </div>
+<hr>
+  <!-- Footer -->
+  <footer class=" w3-light-grey w3-padding-32">
+
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <table class="table1">
+      <td>
+        <a href="homepage.html" class="w3-bar-item w3-button"> <img class="w3-image" src="images/logo.webp"
+            alt="Nhà hàng đồ ăn cay MQTT" width="200" height="200"> </a>
+      </td>
+      <td>
+        <li><b>Nhà hàng chuyên đồ ăn cay MQTT</b></li>
+        <li><b>Địa chỉ:</b> 235 Nguyễn Văn Cừ, phường 4, quận 5, TP. Hồ Chí Minh</li>
+        <li><b>SĐT:</b> 0912746172</li>
+        <li><b>Email: </b>mqttspicyfood@gmail.com</li>
+      </td>
+      <td><b>Thông tin</b>
+        <li><a href="homepage.html">Trang chủ</a> </li>
+        <li><a href="menu.html">Các món ăn</a></li>
+        <li><a href="address.html">Địa chỉ</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+      </td>
+      <td>
+        <b>Mạng xã hội</b>
+        <li><a href="https://www.facebook.com/">Facebook</a> </li>
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/">Tiktok</a></li>
+
+      </td>
+    </table>
+
+
+  </footer>
+
+</body>
+
+</html>

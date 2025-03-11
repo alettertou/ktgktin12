@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Feedback</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: Helvetica;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-red w3-padding w3-card" style="letter-spacing:4px;">
+            <a href="homepage.html" class="w3-bar-item w3-button"> <img class="w3-image" src="images/logo.webp"
+                    alt="Nhà hàng đồ ăn cay MQTT" width="50" height="50"> </a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="menu.html" class="w3-bar-item w3-button">Các món ăn</a>
+                <a href="address.html" class="w3-bar-item w3-button">Địa chỉ</a>
+                <a href="feedback.html" class="w3-bar-item w3-button">Feedback</a>
+            </div>
+        </div>
+    </div>
+
+
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+        <div class="empty-div"></div>
+        <div class="w3-display-center w3-padding-large heading background ">
+            <h1 class="w3-xxlarge heading"><b>NHÀ HÀNG ĐỒ ĂN CAY MQTT</b></h1>
+        </div>
+    </header>
+
+
+
+    <div class="w3-row w3-red " id="about">
+        <h1>
+            <font color=white><b> ĐÁNH GIÁ TỪ KHÁCH HÀNG </b></font>
+        </h1>
+    </div>
+    <hr>
+    <div class="empty-div"></div>
+    <table class="table3 " style="background-color: lightyellow; border: 5;border-color:black;">
+
+
+        <tr class=align="center">
+            <td class="td1" width="50">
+                <img src="images/banana.jpg" width="50">
+                @bananah
+            </td>
+            <td class="td1" width="50">
+                <img src="Images\kimchi.jpg" width="50">
+                @kimchidoau
+            </td>
+            <td class="td1" width="50">
+                <img src="Images\bongcuc.jpg" width="50">
+                @bongcuc
+            </td>
+        </tr>
+
+        <tr align="center">
+            <td class="td1">
+                bữa trưa tuyệt vời
+            </td>
+            <td class="td1" width="20">
+                không gian sang trọng, sạch sẽ, </br>
+                đồ ăn thơm ngon và đặc biệt là thầy Triết đẹp trai
+            </td>
+            <td width="20">
+                chắc chắn là địa điểm hợp lí cho bữa ăn. </br>
+                Tình nguyện seeding. Mong nhà hàng lên thêm nhiều
+            </td>
+        </tr>
+
+        <tr align="center">
+            <td class="td1">
+                <img src="Images\lau1.jpg" width="250">
+            </td>
+            <td class="td1">
+                <img src="Images\kgian.jpg" width="250">
+            </td>
+            <td class="td1">
+                <img src="Images\gacay.jpg" width="250">
+            </td>
+        </tr>
+
+
+
+
+    </table>
+    <div class="empty-div"></div>
+    <hr>
+    <H1>
+        <center><b> Để lại lời nhắn cho chúng tôi </b></center>
+    </h1>
+    <form class="w3-center">
+
+        <label for="taikhoan"> Tài khoản: </label>
+        <input type="text" id="taikhoan" name="taikhoan">
+        <p>
+
+            <label for="nhanxet"> Nhận xét: </label>
+            <input type="text" id="nhanxet" name="nhanxet">
+        </p>
+        <p>
+
+            <label for="chinhanh"> Chi nhánh: </label>
+            <input type="radio" id="chinhanh1" name="chinhanh"> Chi nhánh 1 </input>
+            <input type="radio" id="chinhanh2" name="chinhanh"> Chi nhánh 2 </input>
+        </p>
+        <p>
+
+            <label for="taihinhanh"> Tải hình ảnh nhà hàng </label>
+            <input type="file" id="taihinhanh" name="Brows">
+        </p>
+        <p>
+
+            <input type="submit" id="gui" name="gui" value="Gửi feedback">
+        </p>
+    </form>
+    <footer class=" w3-light-grey w3-padding-32">
+       
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <table class="table1">
+                <td>
+                    <a href="homepage.html" class="w3-bar-item w3-button"> <img class="w3-image" src="images/logo.webp"
+                            alt="Nhà hàng đồ ăn cay MQTT" width="200" height="200"> </a>
+                </td>
+                <td>
+                    <li><b>Nhà hàng chuyên đồ ăn cay MQTT</b></li>
+                    <li><b>Địa chỉ:</b> 235 Nguyễn Văn Cừ, phường 4, quận 5, TP. Hồ Chí Minh</li>
+                    <li><b>SĐT:</b> 0912746172</li>
+                    <li><b>Email: </b>mqttspicyfood@gmail.com</li>
+                </td>
+                <td><b>Thông tin</b>
+                    <li><a href="homepage.html">Trang chủ</a> </li>
+                    <li><a href="menu.html">Các món ăn</a></li>
+                    <li><a href="address.html">Địa chỉ</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </td>
+                <td>
+                    <b>Mạng xã hội</b>
+                    <li><a href="https://www.facebook.com/">Facebook</a> </li>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/">Tiktok</a></li>
+
+                </td>
+            </table>
+
+
+    </footer>
+</body>
+
+</html>
