@@ -1,4 +1,4 @@
-Bài kiểm tra giữa kỳ 2 tin 8 lớp 12 trường THPT chuyên lê Hồng Phong
+Bài kiểm tra giữa kỳ 2 tin 8 lớp 12 trường THPT chuyên lê Hồng Phong </p>
 Giáo viên hướng dẫn: Thầy Đỗ Quốc Anh Triết
 Thành viên: 
 - Nguyễn Trần Anh Thư (12CS)
